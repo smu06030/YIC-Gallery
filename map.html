@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>YIC Gallery</title>
+    <link href = "css/common.css" rel = "stylesheet" type = "text/css">
+    <link rel = "stylesheet" href = "css/slick.css" type = "text/css">
+    <link rel = "stylesheet" href = "css/slick-theme.css" type = "text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href = "css/bootstrap.min.css" rel = "stylesheet">
+    <link href = "css/bootstrap-theme.min.css" rel = "stylesheet">
+    <link href = "css/font-awesome.css" rel = "stylesheet">
+    <script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src = "js/bootstrap.min.js"></script> 
+    <script src = "js/jquery.easeScroll.js"></script>
+    <script src = "js/common.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrMDlUsGeE5tH70slIt6srwn9R8wq9PJo&callback=initMap" async defer></script>
+</head>
+<body>
+    <!-- 메뉴 -->
+    <header class="header">
+        <ul class = "menu">
+            <li><a href = "index.html">HOME</a></li>
+            <li><a href = "map.html">MAP</a></li>
+            <li><a href = "about.html">ABOUT</a></li>
+        </ul>
+    </header>
+    <!-- 구글 맵 -->
+    <section class="map_main">
+        <div class="map_main_img" style="background-image: url(img/map_main.jpg);">
+            <!-- <img src="img/map_main.jpg" alt="메인 이미지">-->
+            <h3>방문안내</h3>
+            <p>-YIC Gallery-</p>
+        </div>
+    </section>
+    <section class="map_contents">
+        <div class="map_contents_box">
+            <h3>MAP</h3>
+            <div id="map"></div>
+            <h2>서울특별시 서대문구 가좌로 134</h2>
+        </div>
+        <div class="map_contents_middle">
+            <p>오시는 길</p>
+            <div class = "map_contents_middle_btm"></div>
+            <div class="map_contents_mid_left">
+                <h2>지하철</h2>
+                <div class="line_info">
+                    <p class = "line_2">2호선</p>
+                    <p><strong>이대역(1,4번 출구)</strong> 7017,7611</p>
+                    <p><strong>신촌역(1번 출구)</strong> 7611,7713</p>
+                    <p><strong>신촌역(4번 출구)</strong> 7611</p>
+                    <p><strong>홍대입구역(8번출구)</strong> 7612</p>
+                </div>
+                <div class="line_info">
+                    <p class = "line_3">3호선</p>
+                    <p><strong>홍제역(2번 출구)</strong> 7019,7021</p>
+                    <p><strong>홍제역(3번 출구)</strong> 7713</p>
+                </div>
+                <div class="line_info">
+                        <p class = "line_6">6호선</p>
+                        <p><strong>새절역(1번 출구)</strong> 7017,7018,7021</p>
+                    </div>
+            </div>
+            <div class="map_contents_mid_right">
+                <h2>버스</h2>
+                <div class="bus_info">
+                    <p class = "bus_number">7017</p>
+                    <p><strong>6호선 새절역 ↔ 명지전문대학 ↔ 을지로입구</strong></p>
+                </div>
+                <div class="bus_info">
+                    <p class = "bus_number">7019</p>
+                    <p><strong>서울역 ↔ 3호선 홍제역 ↔ 명지전문대학</strong></p>
+                </div>
+                <div class="bus_info">
+                    <p class = "bus_number">7021</p>
+                    <p><strong>6호선 증산역 ↔ 명지전문대학 ↔ 을지로입구</strong></p>
+                </div>
+                <div class="bus_info">
+                    <p class = "bus_number">7611</p>
+                    <p><strong>명지전문대학 ↔ 여의도</strong></p>
+                </div>
+                <div class="bus_info">
+                    <p class = "bus_number">7612</p>
+                    <p><strong>명지전문대학 ↔ 영등포구청역</strong></p>
+                </div>
+                <div class="bus_info">
+                    <p class = "bus_number">7734</p>
+                    <p><strong>진광공영차고지 ↔ 명지전문대학 ↔ 홍대입구역</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_full">
+            <div class="footer_section">
+                <h3>Created by</h3>
+                <p>Myongji College of</p>
+                <p>Computer Engineering</p>
+                <p>You In Cheol</p>
+            </div>
+            <div class="footer_section foot_2">
+                <h3>SNS</h3>
+                    <ul class="share-buttons">
+                        <li><a href="https://www.facebook.com" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="img/Facebook.png" /></a></li>
+                        <li><a href="https://twitter.com" target="_blank" title="Tweet"><img alt="Tweet" src="img/Twitter.png" /></a></li>
+                        <li><a href="https://google.com" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="img/Google+.png" /></a></li>
+                    </ul>
+            </div>
+            <div class="footer_section">
+                <h3>YIC Gallery</h3>
+                <p>서울시 서대문구 가좌로 134</p>
+                <p>02)123-4567</p>
+            </div>
+        </div>
+    </div>
+    <footer class = "foot">
+        <p>Copyright &copy; 2019 by YIC Gallery ALL RIGHT RESERVED.</p>
+    </footer>
+</body>
+</html>

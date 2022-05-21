@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>YIC Gallery</title>
+    <link href = "css/common.css" rel = "stylesheet" type = "text/css">
+    <link rel = "stylesheet" href = "css/slick.css" type = "text/css">
+    <link rel = "stylesheet" href = "css/slick-theme.css" type = "text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href = "css/bootstrap.min.css" rel = "stylesheet">
+    <link href = "css/bootstrap-theme.min.css" rel = "stylesheet">
+    <link href = "css/font-awesome.css" rel = "stylesheet">
+    <link rel = "stylesheet" href = "css/simplelightbox.min.css">
+    <script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src = "js/bootstrap.min.js"></script> 
+    <script src = "js/jquery.easeScroll.js"></script>
+    <script src = "js/simple-lightbox.min.js"></script>
+    <script src = "js/common.js"></script>
+</head>
+<body>
+    <!-- 메뉴 -->
+    <header class="header">
+        <ul class = "menu">
+            <li><a href = "index.html">HOME</a></li>
+            <li><a href = "map.html">MAP</a></li>
+            <li><a href = "about.html">ABOUT</a></li>
+        </ul>
+    </header>
+    <!-- 메인 사진 -->
+    <section class="map_main">
+        <div class="map_main_img" style="background-image: url(img/banner.jpg);">
+            <!-- <img src="img/map_main.jpg" alt="메인 이미지">-->
+            <h3>그 외 작가 사진</h3>
+        </div>
+    </section>
+    <!-- 상단으로 이동하는 버튼 -->
+    <a href="#" class="top">▲</a>
+    <div class="container">
+       <h3>작가 개인 사진</h3>
+        <div class="gallery"> 
+            <a href="img/image1.jpg" class="big"><img src="img/thumbs/thumb1.jpg" alt="" title="노을" /></a>
+			<a href="img/image2.jpg"><img src="img/thumbs/thumb2.jpg" alt="" title="금문교"/></a>
+			<a href="img/image3.jpg"><img src="img/thumbs/thumb3.jpg" alt="" title=""/></a>
+			<a href="img/image4.jpg"><img src="img/thumbs/thumb4.jpg" alt="" title=""/></a>
+			<div class="clear"></div>
+
+			<a href="img/image5.jpg"><img src="img/thumbs/thumb5.jpg" alt="" title=""/></a>
+			<a href="img/image6.jpg"><img src="img/thumbs/thumb6.jpg" alt="" title=""/></a>
+			<a href="img/image7.jpg" class="big"><img src="img/thumbs/thumb7.jpg" alt="" title=""/></a>
+			<a href="img/image8.jpg"><img src="img/thumbs/thumb8.jpg" alt="" title="노을"/></a>
+			<div class="clear"></div>
+
+			<a href="img/image9.jpg" class="big"><img src="img/thumbs/thumb9.jpg" alt="" title=""/></a>
+			<a href="img/image10.jpg"><img src="img/thumbs/thumb10.jpg" alt="" title=""/></a>
+			<a href="img/image11.jpg"><img src="img/thumbs/thumb11.jpg" alt="" title=""/></a>
+            <a href="img/image12.jpg"><img src="img/thumbs/thumb12.jpg" alt="" title=""/></a>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <br><br><br>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_full">
+            <div class="footer_section">
+                <h3>Created by</h3>
+                <p>Myongji College of</p>
+                <p>Computer Engineering</p>
+                <p>You In Cheol</p>
+            </div>
+            <div class="footer_section foot_2">
+                <h3>SNS</h3>
+                    <ul class="share-buttons">
+                        <li><a href="https://www.facebook.com" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="img/Facebook.png" /></a></li>
+                        <li><a href="https://twitter.com" target="_blank" title="Tweet"><img alt="Tweet" src="img/Twitter.png" /></a></li>
+                        <li><a href="https://google.com" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="img/Google+.png" /></a></li>
+                    </ul>
+            </div>
+            <div class="footer_section">
+                <h3>YIC Gallery</h3>
+                <p>서울시 서대문구 가좌로 134</p>
+                <p>02)123-4567</p>
+            </div>
+        </div>
+    </div>
+    <footer class = "foot">
+        <p>Copyright &copy; 2019 by YIC Gallery ALL RIGHT RESERVED.</p>
+    </footer>
+</body>
+</html>
+<script>
+    var gallery = $('.gallery a').simpleLightbox();
+</script>
